@@ -1,0 +1,88 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+.logo {
+  margin-top: 50px;
+  margin-left: 450px;
+  margin-bottom:5px;
+}
+.navbar {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.navbar li {
+  display: inline;
+  text-decoration: none;
+}
+.navbar a {
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+}
+.flowerimg{
+  
+}
+@media screen and (max-width: 600px) {
+  .flowerimg {
+    width: 100%;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+.box:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 100%;
+  height: 250px;
+  background-color:none;
+  margin-bottom:20px;
+}
+hr{
+  border:2px solid blue
+  
+}
+.twobox:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.twobox{
+  padding:10px;
+  border: none;
+}
+.float-box{
+float:left;
+width:50%;
+}
+@media screen and (max-width: 600px) {
+  .float-box {
+    width: 100%;
+  }
+}
+.title-left{
+  float:right;
+}
+.column1 {
+  float: left;
+  width: 100%;
+  height: 50px;
+  background-color:#f6f6f6;
+  margin-bottom:20px;
+}
+
+
